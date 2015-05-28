@@ -1,0 +1,3 @@
+SELECT setting_lang.`value` FROM setting LEFT JOIN setting_lang on (setting.id = setting_lang.id_setting) where id_lang = 3 and name = 'company_name'
+
+select * from news left join news_lang on (news.id_news = news_lang.id_news) where id_lang = 3
